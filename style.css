@@ -1,0 +1,95 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+}
+
+.header {
+  overflow: hidden;
+  background-color: #2c3d4f;
+  padding: 1%;
+}
+
+.header a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 1em;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a.main {
+  font-size: 1.7em;
+  font-weight: bold;
+  margin-left: 4%;
+}
+
+.header-right {
+  float: right;
+  margin-right: 4%;
+}
+
+.nave {
+  background-color: #1bbc9b;
+  color: white;
+  text-align: center;
+  padding: 5%;
+}
+
+.nave p {
+  font-weight: lighter;
+  font-size: 1.8em;
+  color: #87e7d4;
+}
+
+.nave img {
+  width: 35%;
+}
+
+.nave h1 {
+  margin: 3%;
+  font-size: 4em;
+}
+
+.consulta h1 {
+  color: #2e3e57;
+  padding: 3% 0% 2.1% 0%;
+  text-align: center;
+  font-size: 3em;
+}
+
+input[type="text"] {
+  width: 60%;
+  margin: 0% 20%;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px lightgray solid;
+  padding: 1em 0 1.5em;
+  font-size: 1.8em;
+  font-family: inherit;
+  font-weight: 300;
+  line-height: 1.5;
+  color: inherit;
+  outline: none;
+}
+
+input[type="submit"] {
+  width: 11%;
+  height: 11%;
+  margin: 1.5% 20%;
+  cursor: pointer;
+  padding: 1.2em 1.5em;
+  font-size: 1.39em;
+  display: inline-block;
+  background-color: #1bbc9b;
+  border: 1px solid #1bbc9b;
+  border-radius: 4px;
+  color: #dffff7;
+  text-decoration: none;
+  position: relative;
+}
