@@ -6,14 +6,13 @@
   font-weight: bold;
 }
 
-.header {
+.navbar {
   overflow: hidden;
   background-color: #2c3d4f;
   padding: 1%;
 }
 
-.header a {
-  float: left;
+.nav-item a {
   color: white;
   text-align: center;
   padding: 12px;
@@ -23,15 +22,10 @@
   border-radius: 4px;
 }
 
-.header a.main {
+.navbar-brand {
+  color: white;
   font-size: 1.7em;
   font-weight: bold;
-  margin-left: 4%;
-}
-
-.header-right {
-  float: right;
-  margin-right: 4%;
 }
 
 .nave {
@@ -41,19 +35,14 @@
   padding: 5%;
 }
 
-.nave p {
+.texto {
   font-weight: lighter;
   font-size: 1.8em;
   color: #87e7d4;
 }
 
-.nave img {
-  width: 35%;
-}
-
-.nave h1 {
-  margin: 3%;
-  font-size: 4em;
+.naves {
+  font-size: 3em;
 }
 
 .consulta h1 {

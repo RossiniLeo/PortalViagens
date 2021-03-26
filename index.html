@@ -4,43 +4,81 @@
 <head>
     <link rel="stylesheet" type="text/css" href="style.css" />
     <meta charset="UTF-8" />
-    <title>Portal de Viagens</title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 
 <body>
-    <div class="header">
-        <a class="main">PORTAL DE VIAGENS</a>
-        <div class="header-right">
-            <a>DESTINOS</a>
-            <a>VALORES</a>
-            <a>CONTATO</a>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <title>Portal de Viagens</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-sm navbar-custom bg-custom">
+            <div class="container">
+                <a href="#" class="navbar-brand">PORTAL DE VIAGENS</a>
+                <ul class="navbar-nav">
+                    <!--(li.nav-item>a[href="#"]{Link $})*3-->
+                    <li class="nav-item"><a class="nav-link" href="#">DESTINOS</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">VALORES</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">CONTATOS</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="nave">
+
+            <div class="row justify-content-center">
+                <img src="img/Nave.png" class="col-lg-6 col-md-8 col-sm-10">
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="naves col-8"> AS MELHORES NAVES!</div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="texto col-10">Preços especiais para os planetas da federação galática. Visite ainda
+                    universos, dimensões e realidade alternativas!</div>
+            </div>
         </div>
-    </div>
 
-    <div class="nave">
+        <div class="consulta">
 
-        <img src="img/Nave.png">
+            <div class="row justify-content-center">
+                <h1>CONSULTAR VALORES</h1>
+            </div>
 
-        <h1> AS MELHORES NAVES!</h1>
-
-        <p>Preços especiais para os planetas da federação galática. Visite ainda universos, dimensões e
-            realidade alternativas!</p>
-    </div>
-
-    <div class="consulta">
-        <h1>CONSULTAR VALORES</h1>
-
-        <form>
-            <input type="text" id="origem" name="origem" placeholder="Origem"><br>
-            <input type="text" id="destino" name="destino" placeholder="Destino"><br>
-            <input type="text" id="datapartida" name="datapartida" placeholder="Data da Partida"><br>
-            <input type="text" id="datavolta" name="datavolta" placeholder="Data da Volta"><br>
-            <input type="submit" value="Consultar">
+            <form>
+                <div class="row justify-content-center"></div>
+                <div class="col-12">
+                    <input type="text" id="origem" name="origem" placeholder="Origem"><br>
+                </div>
+                <div class="col-12">
+                    <input type="text" id="destino" name="destino" placeholder="Destino"><br>
+                </div>
+                <div class="col-12">
+                    <input type="text" id="datapartida" name="datapartida" placeholder="Data da Partida"><br>
+                </div>
+                <div class="col-12">
+                    <input type="text" id="datavolta" name="datavolta" placeholder="Data da Volta"><br>
+                </div>
+                <input type="submit" value="Consultar">
+        </div>
         </form>
-    </div>
+        </div>
 
 
-</body>
+    </body>
 
 </html>
